@@ -18,6 +18,6 @@ jobs:
         with:
           sarif: results.sarif
           node-version: 16
-          target: .
+          target: ./contracts
           fail-on: none
           slither-args: '--filter-paths "(lib/|@openzeppelin|hardhat|src/libraries/BytesLib.sol|test/)"'
